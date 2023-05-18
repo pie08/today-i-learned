@@ -70,6 +70,31 @@ body {
   height: 68px;
 }
 
+.loading {
+  height: 10vw;
+  align-self: center;
+  justify-self: center;
+  animation: loading-animation 2s infinite;
+}
+
+@keyframes loading-animation {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(0.9) rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 h1 {
   font-size: 42px;
   text-transform: uppercase;
