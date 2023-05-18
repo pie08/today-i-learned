@@ -62,8 +62,14 @@ body {
 }
 
 main section {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   overflow-y: scroll;
   /* padding-bottom: 40px; */
+}
+
+main section::-webkit-scrollbar {
+  display: none;
 }
 
 .category {
