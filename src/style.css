@@ -269,6 +269,7 @@ ul {
 @media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
+    height: auto;
   }
 }
 
